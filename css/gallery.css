@@ -23,10 +23,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 1rem;
   }
   
   .btn {
-    background-color: #0074d9;
+    background-color: #134FCC;
     color: white;
     font-size: 20px;
     padding: 5px 20px;
