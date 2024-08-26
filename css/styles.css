@@ -57,6 +57,48 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
+/* Hamburger Menu */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.hamburger span {
+    width: 25px;
+    height: 3px;
+    background: white;
+    margin: 4px 0;
+    transition: 0.4s;
+}
+
+/* Show the hamburger menu on smaller screens */
+@media (max-width: 768px) {
+    .hamburger {
+        display: flex;
+    }
+    
+    nav ul {
+        display: none; /* Hide nav links initially */
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: #134FCC;
+    }
+    
+    nav ul.active {
+        display: flex; /* Show nav links when active */
+    }
+    
+    nav ul li {
+        text-align: center;
+        padding: 10px;
+        border-bottom: 1px solid #fff;
+    }
+}
+
 
 
 /* Section Headings */
