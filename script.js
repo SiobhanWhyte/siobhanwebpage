@@ -1,5 +1,6 @@
-// script.js
-
+/*// script.js
+// Hamburger Menu Script
+(function() {
 // Select the hamburger and the nav links container
 const hamburger = document.getElementById('hamburger');
 const navLinks = document.getElementById('nav-links');
@@ -9,9 +10,11 @@ hamburger.addEventListener('click', () => {
     // Toggle the 'active' class on the nav links container
     navLinks.classList.toggle('active');
 });
+})(); */
 
 
-
+// Calculator Script
+(function() {
 
 let runningTotal = 0;
 let buffer = "0";
@@ -114,6 +117,7 @@ function init() {
 }
 
 init();
+})();
 
 
 
