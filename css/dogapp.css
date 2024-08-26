@@ -46,9 +46,10 @@ select {
 
 .loading-dog {
   animation: spin 1s infinite linear;
-  font-size: 50px;
+  font-size: 30px;
   display: none;
   margin: 0 auto;
+  margin-right: 30rem;
 }
 
 .container {
