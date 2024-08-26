@@ -6,9 +6,19 @@
     background-color: #ECE0D1;
   }
   
+h1 {
+  color: black;
+  text-align: center;
+  margin-top: 2rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-decoration: underline;
+}
+
   .gallery-img {
     display: none;
     max-height: 600px;
+    margin-top: 2rem;
+    border:#134FCC 4px solid;
   }
   
   .active {
@@ -20,6 +30,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
   }
   
   .btns {

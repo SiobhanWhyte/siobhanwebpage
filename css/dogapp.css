@@ -7,13 +7,14 @@ body {
   padding: 0;
   margin: 0;
   background-color: #ECE0D1;
-  color: #333; /* Add a default text color for better readability */
+  color: black; /* Add a default text color for better readability */
   line-height: 1.6; /* Improve readability */
 }
 
 h1 {
   font-size: 2.5rem;
   text-align: center;
+  text-decoration: underline;
   
 }
 
@@ -42,6 +43,7 @@ select {
   height: auto;
   display: block;
   margin: 0 auto;
+  border:#134FCC 4px solid;
 }
 
 .loading-dog {
@@ -49,7 +51,6 @@ select {
   font-size: 30px;
   display: none;
   margin: 0 auto;
-  margin-right: 30rem;
 }
 
 .container {
