@@ -11,16 +11,29 @@ body {
   line-height: 1.6; /* Improve readability */
 }
 
-
-
 h1 {
   font-size: 2.5rem;
   text-align: center;
+  
 }
 
 h2 {
   font-size: 1rem;
   text-align: center;
+  margin: 10px;
+}
+
+/* Styling the select element */
+select {
+  font-size: 1rem; 
+  padding: 10px; 
+  margin: 0 auto; 
+  display: block; 
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: white; 
+  width: 80%; 
+  max-width: 400px; 
 }
 
 .main-image {
@@ -35,6 +48,7 @@ h2 {
   animation: spin 1s infinite linear;
   font-size: 50px;
   display: none;
+  margin: 0 auto;
 }
 
 .container {
@@ -43,6 +57,12 @@ h2 {
   justify-content: center;
   height: 80vh;
   overflow: hidden;
+  text-align: center; /* Center content within the container */
+
+}
+
+.show {
+  display: block;
 }
 
 @keyframes spin {
@@ -51,6 +71,4 @@ h2 {
   }
 }
 
-.show {
-  display: block;
-}
+
