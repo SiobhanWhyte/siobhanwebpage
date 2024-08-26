@@ -11,7 +11,7 @@ body {
     background-color: #134FCC;
     margin: 0;
     padding: 0;
-    padding-top: 7rem;
+    padding-top: 4rem;
 }
 
 /* Header */
@@ -30,7 +30,7 @@ header {
 }
 
 header h1 {
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin: 0;
 }
 
@@ -141,7 +141,7 @@ section h2 {
 .text h2 {
     font-size: 3rem; /* Adjust as needed */
     margin-bottom: 1rem;
-    padding-right: 5rem;
+    padding-right: 3rem;
 }
 
 .text p {
