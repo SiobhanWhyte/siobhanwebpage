@@ -1,7 +1,6 @@
 Siobhan's Portfolio
 Welcome to my personal portfolio website! This site showcases my work, projects, and provides a way to get in touch with me. It's designed to be simple, responsive, and easy to navigate.
 
-
 This portfolio is a reflection of my skills, experiences, and the projects I have worked on. It is a single-page application that provides a smooth and interactive user experience. The website is designed to be fully responsive, ensuring it looks great on all devices, from desktops to mobile phones.
 
 Features
@@ -22,7 +21,7 @@ Clone the repository:
 
 bash
 Copy code
-git clone https://github.com/yourusername/your-portfolio-repo.git
+git clone https://github.com/SiobhanWhyte/siobhanwebpage.git
 Navigate to the project directory:
 
 bash
@@ -48,7 +47,6 @@ Description: Ability to click through a gallery of images.
 
 Project 2: Dog App Project
 Description: Option to select any dog breed of choice and view an image of each dog.
-
 
 Contact
 If you'd like to get in touch, you can use the contact form on the website or reach out via email:
