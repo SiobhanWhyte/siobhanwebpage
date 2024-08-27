@@ -21,7 +21,7 @@ h1 {
 h2 {
   font-size: 1rem;
   text-align: center;
-  margin: 10px;
+  margin: 1rem 2rem;
 }
 
 /* Styling the select element */
@@ -38,8 +38,8 @@ select {
 }
 
 .main-image {
-  max-width: 100%;
-  max-height: 80vh;
+  max-width: 60%;
+  max-height: 60%;
   height: auto;
   display: block;
   margin: 0 auto;
@@ -57,7 +57,7 @@ select {
   flex-direction: column; /* Stack items vertically */
   align-items: center;
   justify-content: center;
-  height: 80vh;
+  height: 50vh;
   overflow: hidden;
   text-align: center; /* Center content within the container */
 }
