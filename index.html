@@ -1,100 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Siobhan's Portfolio</title>
-    <link rel="stylesheet" href="css/styles.css"> 
-    <link rel="stylesheet" href="calculator.html"> <!-- Calculator-specific styles -->
-
-</head>
-<body>
-     <!-- Header Section -->
-     <header>
-       
-        <h1> ✈️  Siobhan's Portfolio </h1>
-        <nav>
-            <div class="hamburger" id="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <ul id="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-        
-        
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="calculator.html" />
+    <!-- Calculator-specific styles -->
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <h1>✈️ Siobhan's Portfolio</h1>
+      <nav>
+        <div class="hamburger" id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <ul id="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
     </header>
 
     <!-- About Section -->
     <section id="about">
-        <div class="about-content">
-            <div class="text">
-                <h2>All of my portfolio projects you need. In one place.</h2> 
-                <p>Welcome to my portfolio! Here, you'll find a showcase of my pre-work deliverables. I've shared the various projects I've completed through FrontendMasters. Thanks for visiting, and I look forward to connecting with you all in person soon! <p>
-            </div>
-                <div class="images">
-                <img src="./css/images/travelperk_logo.jpeg" alt="Image 2 description">
-                <img src="./css/images/1643050576897 (1).jpeg" alt="Image 1 description">
-                <img src="./css/images/allwomentech_logo.jpeg" alt="Image 2 description">
-            </div>
+      <div class="about-content">
+        <div class="text">
+          <h2>All of my portfolio projects you need. In one place.</h2>
+          <p>
+            Welcome to my portfolio! Here, you'll find a showcase of my pre-work
+            deliverables. I've shared the various projects I've completed
+            through FrontendMasters. Thanks for visiting, and I look forward to
+            connecting with you all in person soon!
+          </p>
+          <p></p>
         </div>
+
+        <div class="images">
+          <img
+            src="css/images/about_section_images/travelperk_logo.jpeg"
+            alt="Image 2 description"
+          />
+          <img
+            src="css/images/about_section_images/headshot.jpeg"
+            alt="Image 1 description"
+          />
+          <img
+            src="css/images/about_section_images/allwomentech_logo.jpeg"
+            alt="Image 2 description"
+          />
+        </div>
+      </div>
     </section>
 
     <!-- Projects Section -->
     <section id="projects">
-        <h2>My Projects</h2>
-        <div class="projects-grid">
-            <div class="project">
-                <img src="./css/images/calc2.png" alt="Calculator project image">
-                <h3>Calculator Project</h3>
-                <p>This is a simple calculator. Click the link below to view it:</p>
-                <a href="./calculator.html" target="_blank">Open Calculator</a>
-            </div>
-            <div class="project">
-                <img src="css/images/gal4.jpg" alt="Project 2 image">
-                <h3>Gallery Project</h3>
-                <p>This is a Gallery. Click the link below to view it:</p>
-                <a href="./gallery.html" target="_blank">Open Gallery</a>
-            </div>
-            <!-- Add more projects as needed -->
-            <div class="project">
-                <img src="./css/images/dogapp.jpeg" alt="Project 2 image">
-                <h3>Dog App Project</h3>
-                <p>This is a Dog App. Click the link below to view it:</p>
-                <a href="./dogapp.html" target="_blank">Open Dog App</a>
-            </div>
+      <h2>My Projects</h2>
+      <div class="projects-grid">
+        <div class="project">
+          <img src="css/images/project_main_pictures/calc2.png" alt="Calculator project image" />
+          <h3>Calculator Project</h3>
+          <p>This is a simple calculator. Click the link below to view it:</p>
+          <a href="./calculator.html" target="_blank">Open Calculator</a>
         </div>
+        <div class="project">
+          <img src="css/images/gallery/gal4.jpg" alt="Project 2 image" />
+          <h3>Gallery Project</h3>
+          <p>This is a Gallery. Click the link below to view it:</p>
+          <a href="./gallery.html" target="_blank">Open Gallery</a>
+        </div>
+        <!-- Add more projects as needed -->
+        <div class="project">
+          <img src="css/images/project_main_pictures/dogapp.jpeg" alt="Project 2 image" />
+          <h3>Dog App Project</h3>
+          <p>This is a Dog App. Click the link below to view it:</p>
+          <a href="./dogapp.html" target="_blank">Open Dog App</a>
+        </div>
+      </div>
     </section>
-    
-
 
     <!-- Contact Section -->
     <section id="contact">
-        <h2>Contact Me</h2>
-        <form action="#" method="post">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
+      <h2>Contact Me</h2>
+      <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
 
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
 
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" rows="4" required></textarea>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
 
-            <button type="submit">Send Message</button>
-        </form>
+        <button type="submit">Send Message</button>
+      </form>
     </section>
 
     <!-- Footer Section -->
     <footer>
-        <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+      <p>&copy; 2024 My Portfolio. All rights reserved.</p>
     </footer>
 
     <script src="js/calculator.js"></script>
     <script src="js/hamburger.js"></script>
-</body>
+  </body>
 </html>

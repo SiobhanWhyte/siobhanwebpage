@@ -26,11 +26,11 @@ function next() {
 }
 
 function init() {
-  prevBtn.addEventListener("click", function() {
+  prevBtn.addEventListener("click", function () {
     previous();
   });
 
-  nextBtn.addEventListener("click", function(e) {
+  nextBtn.addEventListener("click", function (e) {
     next();
   });
 }

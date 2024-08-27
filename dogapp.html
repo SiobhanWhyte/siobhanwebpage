@@ -1,33 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Dog Finder App</title>
+    <link rel="stylesheet" href="./css/dogapp.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Dog Finder App</title>
-  <link rel="stylesheet" href="./css/dogapp.css">
-</head>
+  <body>
+    <h1>Dog App</h1>
 
-<body>
-  
-        <h1>Dog App</h1>
-    
+    <div>
+      <h2>
+        Search the dropdown menu for your favorite dog breed:
+        <select id="breed"></select>
+      </h2>
+    </div>
 
-  <div>
-    <h2>Search the dropdown menu for your favorite dog breed:  <select id="breed">
-    </select> </h2>
-   
-  
-  </div>
+    <div class="container">
+      <img id="dogPicture" class="main-image" src="" />
+      <span id="loader" class="loading-dog show">🦴🦴</span>
+    </div>
 
-  <div class="container">
-    <img id="main" class="main-image" src=""  />
-    <span id="loader" class="loading-dog show">🦴🦴</span>
-  </div>
-
-
-  <script src="js/doggos.js"></script>
-</body>
-
+    <script src="js/doggos.js"></script>
+  </body>
 </html>

@@ -1,4 +1,4 @@
-const main = document.getElementById("main");
+const dogPicture = document.getElementById("dogPicture");
 const loader = document.getElementById("loader");
 const breedSelect = document.getElementById("breed");
 
@@ -21,13 +21,13 @@ async function init() {
   const randomRes = await fetch("https://dog.ceo/api/breeds/image/random");
   const randomResJson = await randomRes.json();
 
-  main.src = randomResJson.message;
+  dogPicture.src = randomResJson.message;
 
   // add event listeners
   breedSelect.addEventListener("change", handleBreedChange);
 
-  main.addEventListener("load", function() {
-    main.classList.add("show");
+  dogPicture.addEventListener("load", function () {
+    dogPicture.classList.add("show");
     loader.classList.remove("show");
   });
 }
@@ -35,13 +35,13 @@ async function init() {
 async function handleBreedChange(event) {
   const breed = event.target.value;
 
-  main.classList.remove("show");
+  dogPicture.classList.remove("show");
   loader.classList.add("show");
 
   const res = await fetch(` https://dog.ceo/api/breed/${breed}/images/random`);
   const resJson = await res.json();
 
-  main.src = resJson.message;
+  dogPicture.src = resJson.message;
 }
 
 init();
