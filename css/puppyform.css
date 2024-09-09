@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #d8aa96;
+  font-family: "Montserrat", sans-serif;
+  color: #322827;
+}
+
+main {
+  max-width: 1000px;
+  margin: 100px 200px;
+  display: flex;
+}
+
+.left {
+  width: 40%;
+  background-color: #817182;
+}
+
+.right {
+  width: 80%;
+  background-color: #f9c7c1;
+}
+
+.container-1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-left: 20px;
+  align-items: center;
+}
+
+.item {
+  height: 90px;
+  width: 250px;
+}
+
+.typebox {
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  width: 220px;
+  margin-top: 10px;
+  padding-left: 9px;
+  padding-right: 5px;
+}
+
+h1 {
+  padding: 10% 0 5% 10%;
+  font-size: 27px;
+  font-weight: 650;
+  max-width: 70%;
+}
+
+.photo-item {
+  width: 250px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 50px;
+}
+
+.upload-photo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid rgb(215, 214, 214);
+}
+
+.toggle-display {
+  display: inline-flex;
+  overflow: hidden;
+  border: 3px solid white;
+  width: 90%;
+  justify-content: space-around;
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 2px;
+}
+
+.input {
+  display: none;
+}
+
+.input:checked + .label {
+  background: #f8b1ab;
+}
+
+.weight {
+  text-align: center;
+  margin: 0 38px;
+}
+
+.question-weight {
+  margin-left: 35px;
+  text-align: left;
+}
+
+.label {
+  padding: 8px 14px;
+  background: white;
+  cursor: pointer;
+  transition: background 0.1s;
+}
+
+.footer {
+  margin-top: 30px;
+  background-color: white;
+  height: 90px;
+  display: flex;
+}
+
+.button-1 {
+  width: 50%;
+  text-align: center;
+}
+
+#button {
+  width: 120px;
+  height: 40px;
+  border-radius: 20px;
+  margin: 20px 50px;
+  border: 1px solid rgb(192, 189, 189);
+}
+
+.button-back {
+  background-color: white;
+}
+
+.button-next {
+  background-color: #817182;
+  color: whitesmoke;
+}
+
+@media (max-width: 768px) {
+  #button {
+    margin: 20px 0;
+  }
+
+  main {
+    margin: 0;
+  }
+}

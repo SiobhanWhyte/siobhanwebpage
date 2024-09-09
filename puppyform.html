@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/puppyform.css" />
+    <title>Puppy Form</title>
+  </head>
+  <body>
+    <main>
+      <section class="left"></section>
+      <section class="right">
+        <div class="header">
+          <h1>Yay, puppies! Ensure your pup gets the best care!</h1>
+        </div>
+        <div class="container-1">
+          <div class="name item">
+            <label for="name">Name</label><br />
+            <input
+              class="typebox"
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Pet's name"
+              required
+            /><br /><br />
+          </div>
+          <div class="photo-item">
+            <p>Upload a photo</p>
+            <button class="upload-photo">
+              <i class="fa-solid fa-camera"></i>
+            </button>
+          </div>
+          <div class="breed item">
+            <label for="pet-breed">Breed</label><br />
+            <input
+              class="typebox"
+              type="text"
+              id="pet-breed"
+              name="pet-breed"
+              placeholder="Pet's breed"
+            /><br /><br />
+          </div>
+          <div class="birthday item">
+            <label for="birthday">Birthday</label><br />
+            <input
+              class="typebox"
+              type="date"
+              id="birthday"
+              name="birthday"
+              required
+            /><br /><br />
+          </div>
+          <div class="gender item">
+            <p>Gender</p>
+            <div class="toggle-display">
+              <input
+                class="input"
+                type="radio"
+                id="pet-female"
+                name="pet"
+                value="Female"
+                checked
+                required
+              />
+              <label class="label" for="pet-female">Female</label><br />
+              <input
+                class="input"
+                type="radio"
+                id="pet-male"
+                name="pet"
+                value="Male"
+              />
+              <label class="label" for="pet-male">Male</label><br /><br />
+            </div>
+          </div>
+
+          <div class="spayed item">
+            <p>Spayed or Neutered</p>
+            <div class="toggle-display">
+              <input
+                class="input"
+                type="radio"
+                id="spayed"
+                name="neutered"
+                value="spayed"
+                checked
+                required
+              />
+              <label class="label" for="spayed">Spayed</label><br />
+              <input
+                class="input"
+                type="radio"
+                id="neutered"
+                name="neutered"
+                value="neutered"
+              />
+              <label class="label" for="neutered">Neutered</label><br /><br />
+            </div>
+          </div>
+        </div>
+
+        <div class="weight">
+          <p class="question-weight">Weight</p>
+          <div class="toggle-display">
+            <input
+              class="input"
+              type="radio"
+              id="size-small"
+              name="pet-size"
+              value="small"
+              checked
+              required
+            />
+            <label class="label" for="size-small">0-25lbs</label><br />
+            <input
+              class="input"
+              type="radio"
+              id="size-medium"
+              name="pet-size"
+              value="medium"
+            />
+            <label class="label" for="size-medium">25-50lbs</label><br />
+            <input
+              class="input"
+              type="radio"
+              id="size-large"
+              name="pet-size"
+              value="large"
+            />
+            <label class="label" for="size-large">50-100lbs</label><br />
+            <input
+              class="input"
+              type="radio"
+              id="size-xlarge"
+              name="pet-size"
+              value="xlarge"
+            />
+            <label class="label" for="size-xlarge">100+ lbs</label><br /><br />
+          </div>
+        </div>
+        <div class="footer">
+          <div class="button-1">
+            <button id="button" class="button-back" type="button">Back</button>
+          </div>
+          <div class="button-1">
+            <button id="button" class="button-next" type="button">Next</button>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
