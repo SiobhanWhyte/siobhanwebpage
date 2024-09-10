@@ -111,7 +111,6 @@ h1 {
 .bottom-text {
   margin: 50px 0;
   background-color: white;
-  height: 500px;
   color: #565656;
 }
 
@@ -129,7 +128,7 @@ h1 {
 section {
   display: flex;
   flex-direction: column;
-  padding-left: 40px;
+  padding: 0 40px;
   margin: 50px;
   background-color: white;
   height: auto; /* Auto height for flexibility */
